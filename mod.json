@@ -16,6 +16,7 @@
 				"DisplayName": "MGZ2: Fang Boss Music",
 				"Variable": "UML.FangTheme",
 				"DefaultValue": "0",
+				"Category": "Music",
 				"Options":
 				{
 					"0": "Fang's Theme",
@@ -27,6 +28,7 @@
 				"DisplayName": "CNZ: BG Balloons:",
 				"Variable": "UML.BalloonsActAppearances",
 				"DefaultValue": "1",
+				"Category": "Appearance",
 				"Options":
 				{
 					"0": "Off",
@@ -40,6 +42,7 @@
 				"DisplayName": "CNZ: Cyan BG Balloon Sprite:",
 				"Variable": "UML.RedBalloonType",
 				"DefaultValue": "0",
+				"Category": "Appearance",
 				"Options":
 				{
 					"0": "Lighter",
@@ -51,6 +54,7 @@
 				"DisplayName": "ICZ: Seven Force Boss Music",
 				"Variable": "UML.SevenForceTheme",
 				"DefaultValue": "0",
+				"Category": "Music",
 				"Options":
 				{
 					"0": "User Made Levels",
@@ -63,6 +67,7 @@
 				"DisplayName": "ICZ: Seven Force Title Cards",
 				"Variable": "UML.SevenForceTriggerTitle",
 				"DefaultValue": "1",
+				"Category": "Appearance",
 				"Options":
 				{
 					"0": "Disabled",
