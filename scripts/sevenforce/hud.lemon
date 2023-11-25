@@ -31,7 +31,7 @@ function void RenderSevenForceHUD()
 
     if level.boss_encounter
     {
-        Game.setDiscordState("User Made Levels - Seven Force")
+        Game.setDiscordState("Sonic 3 A.I.R - Seven Force")
     }
 
     if SevenForce.Defeated

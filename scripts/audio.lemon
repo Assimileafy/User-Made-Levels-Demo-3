@@ -15,7 +15,10 @@ global u8 UML.SevenForceTheme
 
 // Man look at all the banter above. I sure wish I wasn't antisocial ~ Assimi
 
-	if (global.zone_act == 0x0501) // Seven Force
+
+function u64 Standalone.getModdedSoundKey(u64 soundKey, u8 sfxId, u8 soundRegType)
+{
+	if (global.zone_act == 0x0501 || global.zone_act == 0x0b00) // Seven Force
 	{
 		if (sfxId == MUSIC_MINIBOSS || sfxId == MUSIC_MINIBOSS_2 || sfxId == MUSIC_MAINBOSS)
 		{
@@ -26,16 +29,16 @@ global u8 UML.SevenForceTheme
 			else
 				return "7force_as"
 		}
-		else if (sfxId == MUSIC_LEVELCLEAR && global.zone_act == 0x0501) //After you Beat Sevenforce
+		else if (sfxId == MUSIC_LEVELCLEAR && global.zone_act == 0x0501)
 		{
-			return "stageclear_gh"	//The Alien Soldier Stage Clear music is basically non-existent so that's why it always uses the Gunstar Heroes track here ~ Syntax
-				//Also this doesn't play in Death Egg because no ~ Syntax
-				//I wonder what code used to be here that was relevant to DEZ ~ Assimi
+			return "stageclear_gh"
 		}
 	}
 
-// do not move this audio function outside audio.lemon, pls ~ Lemons
+	return base.Standalone.getModdedSoundKey(soundKey, sfxId, soundRegType)
+}
 
+// do not move this audio function outside audio.lemon, pls ~ Lemons
 //function bool ExtLife_useCYS()
 //{
 	// rng go brrr 
