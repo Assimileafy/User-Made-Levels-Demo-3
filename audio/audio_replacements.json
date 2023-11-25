@@ -22,16 +22,4 @@
 	"gsh_warning":	{ "File": "SevenForce/SFX/Warning.ogg", "Type": "Sound"},
 	"gsh_roll":	{ "File": "SevenForce/SFX/Roll.ogg", "Type": "Sound", "Channel": "GSH"},
 	"gsh_grind":	{ "File": "SevenForce/SFX/Grind.ogg", "Type": "Sound", "Channel": "GSH"},
-
-	// Fang
-	"fang_f":	{ "File": "Fang_F.ogg", "Type": "Music", "LoopStart": "280879", "Name": "Sonic Triple Trouble (16-Bit): Fang Theme"},
-	"fang_b":	{ "File": "Fang_B.ogg", "Type": "Music", "LoopStart": "189747", "Name": "Sonic Triple Trouble (16-Bit): Boss Theme"},
-	
-	// Extra Life
-	"confrontingyourself":{ "File": "confrontingyourself.ogg", "Type": "Music", "Name": "Confronting Yourself - Differentopic"},
-	"confrontingyourself_fast":{ "File": "confrontingyourself_F.ogg", "Type": "Music", "Name": "Confronting Yourself - Differentopic"},
-	
-	// uh oh
-	"mazel":	{ "File": "mazel.ogg", "Type": "Music", "LoopStart": "112551", "Name": "???"},
-	"render_flag.FLIP_X":	{ "File": "mirror.ogg", "Type": "Music", "LoopStart": "1085801", "Name": "render_flag.FLIP_X - LunarCryptik"},
 }
