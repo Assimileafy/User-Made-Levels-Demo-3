@@ -1,9 +1,9 @@
 {
 	"Metadata":
 	{
-		"Name": "User Made Levels Demo 3",
-		"Author": "Benkoopa, check the files for the full credits",
-		"Description": "Third Demo - Play through a good chunk of Sonic 3 AIR again, but this time, with levels made by none other than your fellow peers in the S3 A.I.R. community!",
+		"Name": "Seven Force Boss",
+		"Author": "Edited by Assimileafy",
+		"Description": "A modification of User Made Levels Demo 3 to only have the Seven Force Boss in ICZ. Please support the official UML release. Check Credits.txt for more info.",
 		"ModVersion": "0.0.10.1",
 		"GameVersion": "20.09.10.0"
 	},
@@ -11,44 +11,6 @@
     {
 		"List":
 		[
-			{
-				"InternalName": "UMLFangTheme",
-				"DisplayName": "MGZ2: Fang Boss Music",
-				"Variable": "UML.FangTheme",
-				"DefaultValue": "0",
-				"Category": "Music",
-				"Options":
-				{
-					"0": "Fang's Theme",
-					"1": "Triple Trouble Boss",
-				}
-			},
-			{
-				"InternalName": "UML.BalloonsActAppearances",
-				"DisplayName": "CNZ: BG Balloons:",
-				"Variable": "UML.BalloonsActAppearances",
-				"DefaultValue": "1",
-				"Category": "Appearance",
-				"Options":
-				{
-					"0": "Off",
-					"1": "Both Acts",
-					"2": "Act 1 Only",
-					"3": "Act 2 Only",
-				}
-			},
-			{
-				"InternalName": "UMLRedBalloonType",
-				"DisplayName": "CNZ: Cyan BG Balloon Sprite:",
-				"Variable": "UML.RedBalloonType",
-				"DefaultValue": "0",
-				"Category": "Appearance",
-				"Options":
-				{
-					"0": "Lighter",
-					"1": "Darker"
-				}
-			},
 			{
 				"InternalName": "UMLSevenForceTheme",
 				"DisplayName": "ICZ: Seven Force Boss Music",
